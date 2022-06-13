@@ -31,7 +31,7 @@ def build_year_month_dpt(current_year, sheet_names_all, bibliometer_path, save_c
     import pandas as pd
 
     # Local library imports
-    import BiblioMeter_Utils as bmu
+    import BiblioMeter_FUNCTS as bmu
 
     from BiblioAnalysis_Utils.BiblioSpecificGlobals import COL_NAMES
 
@@ -236,7 +236,7 @@ def build_df_submit(df_eff, df_pub, bibliometer_path, test_case='No test'):
     import pandas as pd
 
     # Local library imports
-    import BiblioMeter_Utils as bmu
+    import BiblioMeter_FUNCTS as bmu
 
     from BiblioAnalysis_Utils.BiblioSpecificGlobals import COL_NAMES
 
@@ -464,7 +464,7 @@ def _single_year_search(year, bibliometer_path):
     import pandas as pd
 
     # Local library imports
-    import BiblioMeter_Utils as bmu
+    import BiblioMeter_FUNCTS as bmu
 
     from BiblioMeter_GUI.Globals_GUI import STOCKAGE_ARBORESCENCE
     from BiblioAnalysis_Utils.BiblioSpecificGlobals import DIC_OUTDIR_PARSING
@@ -541,7 +541,7 @@ def _recursive_year_search(corpus_year, bibliometer_path):
     import pandas as pd
 
     # Local library imports
-    import BiblioMeter_Utils as bmu
+    import BiblioMeter_FUNCTS as bmu
 
     from BiblioAnalysis_Utils.BiblioSpecificGlobals import DIC_OUTDIR_PARSING
     from BiblioAnalysis_Utils.BiblioSpecificGlobals import FOLDER_NAMES
@@ -658,7 +658,7 @@ def _mise_en_forme(year, bibliometer_path):
     from openpyxl.styles.colors import Color
 
     # Local library imports
-    import BiblioMeter_Utils as bmu
+    import BiblioMeter_FUNCTS as bmu
 
     from BiblioAnalysis_Utils.BiblioSpecificGlobals import DIC_OUTDIR_PARSING
     from BiblioAnalysis_Utils.BiblioSpecificGlobals import FOLDER_NAMES
@@ -823,7 +823,7 @@ def _build_pubs_authors_Liten(year, bibliometer_path):
     import pandas as pd
 
     # Local library imports
-    import BiblioMeter_Utils as bmu
+    import BiblioMeter_FUNCTS as bmu
 
     from BiblioAnalysis_Utils.BiblioSpecificGlobals import DIC_OUTDIR_PARSING
     from BiblioAnalysis_Utils.BiblioSpecificGlobals import FOLDER_NAMES

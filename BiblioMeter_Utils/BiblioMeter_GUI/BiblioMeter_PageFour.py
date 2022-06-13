@@ -34,9 +34,9 @@ def create_PageFour(self, bibliometer_path):
     from BiblioMeter_GUI.Globals_GUI import SET_1
     from BiblioMeter_GUI.Globals_GUI import SUBMIT_FILE_NAME
     
-    from BiblioMeter_Utils.BiblioMeterFonctions import filtrer_par_departement
-    from BiblioMeter_Utils.BiblioMeterFonctions import consolidation_anonymat
-    from BiblioMeter_Utils.BiblioMeterFonctions import ajout_OTP
+    from BiblioMeter_FUNCTS.BiblioMeterFonctions import filtrer_par_departement
+    from BiblioMeter_FUNCTS.BiblioMeterFonctions import consolidation_anonymat
+    from BiblioMeter_FUNCTS.BiblioMeterFonctions import ajout_OTP
 
     from BiblioAnalysis_Utils.BiblioSpecificGlobals import DIC_OUTDIR_PARSING
     from BiblioAnalysis_Utils.BiblioSpecificGlobals import FOLDER_NAMES

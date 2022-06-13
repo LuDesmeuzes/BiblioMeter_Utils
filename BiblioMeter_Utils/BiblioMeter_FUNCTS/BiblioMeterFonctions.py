@@ -207,7 +207,7 @@ def complete_deduplicate_and_save_articles(list_df_dup, indices_of_duplicates, p
     from pathlib import Path
     
     # Local library imports   
-    import BiblioMeter_Utils as bmu
+    import BiblioMeter_FUNCTS as bmu
     
     # 3rd party library imports
     import pandas as pd
@@ -295,7 +295,7 @@ def you_got_OTPed(df,i):
     from pathlib import Path
     
     # Local library imports   
-    import BiblioMeter_Utils as bmu
+    import BiblioMeter_FUNCTS as bmu
     
     # 3rd party library imports
     import pandas as pd
@@ -351,7 +351,7 @@ def liste_de_validation(df,i):
         Adds OTP to df'''
     
     # Local imports
-    import BiblioMeter_Utils as bmu
+    import BiblioMeter_FUNCTS as bmu
     
     # Global variable imports
     from .BiblioMeterGlobalsVariables import OTP_LIST
@@ -465,7 +465,7 @@ def consolidation_anonymat(in_path, out_path):
     from openpyxl.styles.colors import Color
 
     # Local library imports
-    import BiblioMeter_Utils as bmu
+    import BiblioMeter_FUNCTS as bmu
 
     from BiblioAnalysis_Utils.BiblioSpecificGlobals import DIC_OUTDIR_PARSING
     from BiblioAnalysis_Utils.BiblioSpecificGlobals import FOLDER_NAMES
@@ -575,7 +575,7 @@ def ajout_OTP(in_path, out_path):
     from pathlib import Path
 
     # Local library imports
-    import BiblioMeter_Utils as bmu
+    import BiblioMeter_FUNCTS as bmu
 
     # 3rd party import
     import pandas as pd
